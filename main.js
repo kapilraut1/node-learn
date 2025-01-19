@@ -25,3 +25,7 @@ fs.open("index.html", "w", (err, f)=>{
 fs.writeFile('love2.txt',"Hey what is up" ,(err, f)=>{
   console.log("File created with a bang!")
 })
+
+fs.rename('love2.txt','love5.txt', (err, f)=>{
+  console.log("Home")
+})
